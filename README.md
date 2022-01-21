@@ -1,27 +1,46 @@
-# Next.js + Tailwind CSS Example
+# Medium 2.0
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## Next JS
 
-## Preview
+### Sanity
+##
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+It will soon be Deployed
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+![image](https://user-images.githubusercontent.com/83405769/150478886-2db46e11-3ed9-4275-92ad-3f5d13a9935d.png)
 
-## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+This is the Link to sanity dashboard
+  https://mediumnextsanity.sanity.studio/
+  
+When You clone and Install all the dependencies, You have to make a few Changes in the Portable Text index File as the modules has some bugs.
+It does not contain dataset and projectId field.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+Added These Lines :-
+dataset: string;
+projectId: string;
+In the declare funtion PortableText
 
-## How to use
+And
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Added These Lines :-
+const dataset: string;
+const projectId: string;
+In the declare namespace PortableText
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Some Pictures of the Buid:-
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+### Home Page
+![image](https://user-images.githubusercontent.com/83405769/150479761-50dfc4b2-0aa3-4c59-a44f-927d59df7394.png)
+![image](https://user-images.githubusercontent.com/83405769/150479824-477598aa-5d1f-44d4-bed4-43d792b8891d.png)
+
+### Post Page
+![image](https://user-images.githubusercontent.com/83405769/150479884-a0550439-1799-4b7f-b6a5-f7eb43787717.png)
+![image](https://user-images.githubusercontent.com/83405769/150479944-e25bc7c6-c720-43df-84b6-fd818489a484.png)
+
+### Comment Section
+![image](https://user-images.githubusercontent.com/83405769/150479987-35a514c7-b398-4466-8b12-f9c1a60e3f0b.png)
+![image](https://user-images.githubusercontent.com/83405769/150480016-db724f4b-913b-4aaa-b7fe-039fb6706bac.png)
+
+### After Posting Comment
+![image](https://user-images.githubusercontent.com/83405769/150480176-711594c7-09d9-4d5b-92af-965c8adacbdb.png)
